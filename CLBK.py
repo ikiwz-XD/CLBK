@@ -181,7 +181,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL......ketik lagi   python nana.py  (enter)!!!!{x} ');time.sleep(1)
+		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL......ketik lagi   python CLBK.py  (enter)!!!!{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
