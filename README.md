@@ -14,7 +14,9 @@ $pip install mechanize
 
 $Pip2 install requests && pip2 install mechanize
 
-$pip --upgrade -pip
+$pip install rich
+
+$pip2 install rich
 
 $git clone https://github.com/ikiwz-XD/CLBK
 
